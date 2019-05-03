@@ -1,0 +1,24 @@
+{
+  "name": "js-data-structures",
+  "version": "1.0.0",
+  "description": "js data structures lecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokolbird/data-structures-js.git"
+  },
+  "keywords": [
+    "data",
+    "stucture",
+    "js"
+  ],
+  "author": "Victoria Sokolova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sokolbird/data-structures-js/issues"
+  },
+  "homepage": "https://github.com/sokolbird/data-structures-js#readme"
+}
