@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sokolbird/data-structures-js/issues"
   },
-  "homepage": "https://github.com/sokolbird/data-structures-js#readme"
+  "homepage": "https://github.com/sokolbird/data-structures-js#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
 }
