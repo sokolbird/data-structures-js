@@ -33,9 +33,9 @@ function degToRad(degrees) {}
  * Функция принимает несколько строк с числами в шестнадцатеричном формате.
  * Необходимо вернуть их сумму в виде строки.
  *
- * @param  {...number} colors
+ * @param  {...number} numbers
  */
-function addHexNumbers(...colors) {}
+function addHexNumbers(...numbers) {}
 
 module.exports = {
   isNatural,
