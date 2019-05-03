@@ -4,7 +4,8 @@
   "description": "js data structures lecture",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "test:single": "jest --watch -t"
   },
   "repository": {
     "type": "git",
