@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watch",
-    "test:single": "jest --watch -t"
+    "test:single": "jest --watch -t",
+    "test:ui": "majestic"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
     "intl": "^1.2.5",
     "intl-locales-supported": "^1.0.0",
     "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "majestic": "^1.4.1"
   }
 }
