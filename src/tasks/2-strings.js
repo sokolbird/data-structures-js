@@ -36,18 +36,23 @@ function formatEmployee(name, surname, department, salary) {}
 function notBad(sentence) {}
 
 /**
- * Функция принимает массив строк emoji и возвращает
- * строку-шифр, созданную из последовательности кодовых точек.
- * Шифр каждого эмоджи разделить дефисом.
+ * Функция принимает строку emoji и индекс и возвращает
+ * emoji по заданному индексу. Если отрицателен, то трактуется 
+ * как sourceLength + beginSlice, где sourceLength — это длина строки 
+ * (например, если параметр beginSlice равен -3, то он трактуется 
+ * как sourceLength - 3).
+ * 
+ * Внимание: в строке с эмодзи все смайлы закодированы ОДНОЙ суррогатной парой.
  *
- * @param {...string} emojis
+ * @param {string} emojis
+ * @param {number} index
  */
 
-function emojiCipher(...emojis) {}
+function getEmoji(emojis, index) {}
 
 module.exports = {
   parameterize,
   formatEmployee,
   notBad,
-  emojiCipher
+  getEmoji
 };

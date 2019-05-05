@@ -36,10 +36,13 @@ describe('Tasks for strings', () => {
     });
   });
 
-  describe('emojiCipher', () => {
-    it('returns string from emojis char points', () => {
-      expect(tasks.emojiCipher('😂', '🙈', '😱')).toBe('128514-128584-128561');
-      expect(tasks.emojiCipher('😎', '😤', '😬')).toBe('128526-128548-128556');
+  describe('getEmoji', () => {
+    it('returns emoji from specified string by index', () => {
+      expect(tasks.getEmoji('😂🙈😱😮😀😁😐', 1)).toBe('🙈');
+      expect(tasks.getEmoji('😎😤😬😑😬', 2)).toBe('😬');
+      expect(tasks.getEmoji('🙄😴😲😪😈😤', -3)).toBe('😪');
+      expect(tasks.getEmoji('😇🤪🤨🤓😛😍🙃', -4)).toBe('🤓');
+      expect(tasks.getEmoji('😺😸😹😻😼', -1)).toBe('😼');
     });
   });
 });
