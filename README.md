@@ -5,7 +5,7 @@
 <p>Пожалуйста, форкните этот репозиторий.</p>
 
 <h2>Что делать дальше?</h2>
-<h3>Советую установить yarn: [Инструкция здесь](https://yarnpkg.com/en/docs/install#debian-stable)</h3>
+<h3>Советую установить yarn: https://yarnpkg.com/en/docs/install#debian-stable</h3>
 <ol>
 <li>
 Клонируем репозиторий.
