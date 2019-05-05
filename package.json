@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/sokolbird/data-structures-js#readme",
   "devDependencies": {
+    "intl": "^1.2.5",
+    "intl-locales-supported": "^1.0.0",
     "jest": "^24.7.1"
   }
 }
