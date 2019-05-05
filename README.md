@@ -5,12 +5,14 @@
 <p>Пожалуйста, форкните этот репозиторий.</p>
 
 <h2>Что делать дальше?</h2>
-<h3>Советую установить yarn: <code>npm install -g yarn</code></h3>
+<h3>Советую установить yarn: https://yarnpkg.com/en/docs/install#debian-stable</h3>
 <ol>
 <li>
 Клонируем репозиторий.
-P. S. Кто забыл как:
-<code>git clone https://github.com/sokolbird/data-structures-js.git .</code>
+P. S. Кто забыл как: <br>
+<code>cd projects</code>
+<br>
+<code>git clone https://github.com/sokolbird/data-structures-js.git</code>
 </li>
 <li>
 Переходим в папку с проектом.
