@@ -10,7 +10,8 @@
 <li>
 Клонируем репозиторий.
 P. S. Кто забыл как:
-<code>git clone https://github.com/sokolbird/data-structures-js.git .</code>
+<code>cd projects</code>
+<code>git clone https://github.com/sokolbird/data-structures-js.git</code>
 </li>
 <li>
 Переходим в папку с проектом.
