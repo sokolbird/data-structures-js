@@ -9,8 +9,9 @@
 <ol>
 <li>
 Клонируем репозиторий.
-P. S. Кто забыл как:
+P. S. Кто забыл как: <br>
 <code>cd projects</code>
+<br>
 <code>git clone https://github.com/sokolbird/data-structures-js.git</code>
 </li>
 <li>
