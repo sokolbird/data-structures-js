@@ -26,29 +26,45 @@ describe('Tasks for objects', () => {
     });
   });
 
-  describe('provideConfig', () => {
-    it('provides json to js object', () => {
-      expect(
-        tasks.provideConfig(
-          '{"userId": 1, "id": 1, "title": "delectus aut autem", "completed": false}'
-        )
-      ).toEqual({
-        userId: 1,
-        id: 1,
-        title: 'delectus aut autem',
-        completed: false
-      });
-      expect(
-        tasks.provideConfig(
-          '{"albumId": 1, "id": 1, "title": "accusamus beatae ad facilis cum similique qui sunt", "url": "https://via.placeholder.com/600/92c952", "thumbnailUrl": "https://via.placeholder.com/150/92c952"}'
-        )
-      ).toEqual({
-        albumId: 1,
-        id: 1,
-        title: 'accusamus beatae ad facilis cum similique qui sunt',
-        url: 'https://via.placeholder.com/600/92c952',
-        thumbnailUrl: 'https://via.placeholder.com/150/92c952'
-      });
+  describe('movePassword', () => {
+    it('moves password to last place in user object #1', () => {
+      const user = {
+        password: 'Password!',
+        id: 100,
+        name: 'Howard Moon'
+      };
+
+      const userPassword = {
+        id: 100,
+        name: 'Howard Moon',
+        password: 'Password!'
+      };
+
+      expect(tasks.movePassword(user)).toEqual(userPassword);
+    });
+
+    it('moves password to last place in user object #2', () => {
+      const user = {
+        id: 4,
+        name: 'Patricia Lebsack',
+        password: '123456',
+        username: 'Karianne',
+        email: 'Julianne.OConner@kory.org',
+        phone: '493-170-9623 x156',
+        website: 'kale.biz'
+      };
+
+      const userPassword = {
+        id: 4,
+        name: 'Patricia Lebsack',
+        username: 'Karianne',
+        email: 'Julianne.OConner@kory.org',
+        phone: '493-170-9623 x156',
+        website: 'kale.biz',
+        password: '123456'
+      };
+
+      expect(tasks.movePassword(user)).toEqual(userPassword);
     });
   });
 

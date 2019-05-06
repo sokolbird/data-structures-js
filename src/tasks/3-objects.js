@@ -5,16 +5,16 @@
  * @param {object} object
  */
 
-function objectInverse(object) {}
+function objectInverse(object) { }
 
 /**
- * Функция принимает JSON-строку с какими-то конфигурационными данными
- * и преобразует ее в JS-объект.
+ * Функция принимает объект с данными пользователя и перемещает поле 'пароль' на
+ * последнее место.
  *
- * @param {string} jsonConfig
+ * @param {string} user
  */
 
-function provideConfig(jsonConfig) {}
+function movePassword(user) {}
 
 /**
  * Функция принимает объект
@@ -22,7 +22,7 @@ function provideConfig(jsonConfig) {}
  *
  * @param {object} obj
  */
-function numericPropsProduct(obj) {}
+function numericPropsProduct(obj) { }
 
 /**
  * Функция принимает объект.
@@ -31,11 +31,11 @@ function numericPropsProduct(obj) {}
  * @param {object} obj
  */
 
-function clone(obj) {}
+function clone(obj) { }
 
 module.exports = {
   objectInverse,
-  provideConfig,
+  movePassword,
   numericPropsProduct,
   clone
 };
