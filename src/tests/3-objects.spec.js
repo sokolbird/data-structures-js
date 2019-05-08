@@ -26,24 +26,23 @@ describe('Tasks for objects', () => {
     });
   });
 
-  describe('movePassword', () => {
-    it('moves password to last place in user object #1', () => {
+  describe('removePassword', () => {
+    it('removes password in user object #1', () => {
       const user = {
         password: 'Password!',
         id: 100,
         name: 'Howard Moon'
       };
 
-      const userPassword = {
+      const noPassword = {
         id: 100,
-        name: 'Howard Moon',
-        password: 'Password!'
+        name: 'Howard Moon'
       };
 
-      expect(tasks.movePassword(user)).toEqual(userPassword);
+      expect(tasks.removePassword(user)).toEqual(noPassword);
     });
 
-    it('moves password to last place in user object #2', () => {
+    it('removes password in user object #2', () => {
       const user = {
         id: 4,
         name: 'Patricia Lebsack',
@@ -54,17 +53,16 @@ describe('Tasks for objects', () => {
         website: 'kale.biz'
       };
 
-      const userPassword = {
+      const noPassword = {
         id: 4,
         name: 'Patricia Lebsack',
         username: 'Karianne',
         email: 'Julianne.OConner@kory.org',
         phone: '493-170-9623 x156',
-        website: 'kale.biz',
-        password: '123456'
+        website: 'kale.biz'
       };
 
-      expect(tasks.movePassword(user)).toEqual(userPassword);
+      expect(tasks.removePassword(user)).toEqual(noPassword);
     });
   });
 

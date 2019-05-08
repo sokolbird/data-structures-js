@@ -8,13 +8,13 @@
 function objectInverse(object) { }
 
 /**
- * Функция принимает объект с данными пользователя и перемещает поле 'пароль' на
- * последнее место.
+ * Функция принимает объект с данными пользователя и возвращает новый объект, в котором
+ * отсутствует поле пароль.
  *
  * @param {string} user
  */
 
-function movePassword(user) {}
+function removePassword(user) {}
 
 /**
  * Функция принимает объект
@@ -35,7 +35,7 @@ function clone(obj) { }
 
 module.exports = {
   objectInverse,
-  movePassword,
+  removePassword,
   numericPropsProduct,
   clone
 };
