@@ -1,4 +1,5 @@
 <h1>Практические задания по типам и структурам данных в JS</h1>
+https://docs.google.com/presentation/d/10AcYIo8r9Izv2q6Dho9zF5oieYSCSHnGgBZZ6zbnkI8/edit?usp=sharing
 <p>Закрепим теорию практикой ;)</p>
 
 <h1>Прежде чем начать</h1>
