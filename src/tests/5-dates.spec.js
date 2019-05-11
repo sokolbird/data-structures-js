@@ -21,6 +21,20 @@ describe('Tasks for dates', () => {
     });
   });
 
+  describe('unluckyDays', () => {
+    it('should count 3 for 2015', () => {
+      expect(tasks.unluckyDays(2015)).toBe(3);
+    });
+
+    it('should count 1 for 1986', () => {
+      expect(tasks.unluckyDays(1986)).toBe(1);
+    });
+    
+    it('should count 2 for 2017', () => {
+      expect(tasks.unluckyDays(2017)).toBe(2);
+    });
+  });
+
   describe('weekendEndingEmployees', () => {
     it('returns employees who\'s contract ends in weekend', () => {
       const employeeList = [

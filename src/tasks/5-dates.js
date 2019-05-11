@@ -10,6 +10,16 @@ require('../polyfills/intl');
 function timeTravel(dateString) {}
 
 /**
+ * Функция принимает год в виде числа.
+ * Пятница 13е - несчастливый день. Посчитать, сколько несчастливых дней
+ * будет в заданном году.
+ * 
+ * @param {number} year
+ */
+
+function unluckyDays(year) {}
+
+/**
  * Функция принимает массив из объектов, представляющих собой
  * информацию о сотрудниках: фамилия, дата заключения контракта и срок
  * (в годах), на который заключен контракт. Вернуть массив лишь из
@@ -40,6 +50,7 @@ function formatDate(date) {}
 
 module.exports = {
   timeTravel,
+  unluckyDays,
   weekendEndingEmployees,
   formatDate
 };
