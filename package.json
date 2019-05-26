@@ -4,7 +4,6 @@
   "description": "js data structures lecture",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./src/tasks",
     "test": "jest --watch",
     "test:ci": "jest",
     "test:single": "jest --watch -t",
@@ -26,7 +25,6 @@
   },
   "homepage": "https://github.com/sokolbird/data-structures-js#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
     "intl": "^1.2.5",
     "intl-locales-supported": "^1.0.0",
     "jest": "^24.7.1"
